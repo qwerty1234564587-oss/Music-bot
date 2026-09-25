@@ -1,0 +1,55 @@
+# --- Environment / secrets ---
+.env
+.env.*
+*.session
+*.session-journal
+config_local.py
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+*.pyo
+*.egg-info/
+.eggs/
+build/
+dist/
+*.egg
+
+# --- Virtual environments ---
+venv/
+env/
+.venv/
+ENV/
+
+# --- Downloads / runtime media (bot writes here at runtime) ---
+downloads/
+*.webm
+*.mp3
+*.mp4
+*.jpg.tmp
+*.png.tmp
+
+# --- Logs ---
+*.log
+logs/
+log.txt
+
+# --- OS / editor junk ---
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# --- Railway / Heroku / Docker local artifacts ---
+.railway/
+.heroku/
+*.pid
+
+# --- Misc caches ---
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
