@@ -13,7 +13,7 @@ numpy
 
 # --- System & performance ---
 psutil
-uvloop==0.17.0; sys_platform != "win32"
+uvloop; sys_platform != "win32"
 
 # --- Database & API ---
 motor
@@ -24,8 +24,8 @@ heroku3
 
 # --- Telegram / Music bot libs ---
 kurigram>=2.2.23
-py-tgcalls==0.9.7
-ntgcalls==2.0.6
+py-tgcalls>=2.2.0
+ntgcalls>=2.0.6
 pytgcrypto
 spotipy
 unidecode
